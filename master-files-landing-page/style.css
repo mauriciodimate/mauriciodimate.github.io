@@ -1,0 +1,551 @@
+body{
+    margin:auto 0;
+  }
+  /*logo*/
+.logo{
+    width:100px;
+    margin:20px 40px;
+}
+/*the title of the web page*/
+.title{
+    font-family: "montserrat";
+    font-weight: bolder;
+    font-size: 70px;
+    margin: 20px 50px 20px 20px;
+    color: rgb(44, 42, 42);
+    line-height: 1em;
+    letter-spacing: -1px;
+
+}
+/*the image of the moto in the first*/
+.scooter{
+  width: auto;
+  padding:0px;
+}
+/*the first text after the text*/
+.paragraph1{
+   font-family: "montserrat";
+   font-size: 30px;
+   margin: 20px 30px 10px 20px;
+   color: rgb(44, 42, 42);
+
+}
+/*titulo grande del cuadro*/
+.app{
+    font-family:"montserrat";
+    font-weight: bolder;
+    font-size: 40px;
+text-align: center;
+line-height: 0em;}
+/*subtitulo enter*/
+.enter{
+    font-family:"montserrat";
+    color:rgb(49, 48, 48);
+
+    padding-top:0px;
+    padding: 0px 40px 0px;
+
+}
+/*cuadro*/
+.container{
+background-color: rgb(255, 255, 255);
+align-items: center;
+width: 85%;
+box-shadow: 2px 3px grey;
+margin:auto 0;
+border-radius: 20px;
+ padding: 20px;
+
+}
+
+/*texto bottomo*/
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px 30px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: rgb(238, 231, 231);
+    margin: center;
+  }
+  /*numero de telefono*/
+  input[type=number], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px 30px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: rgb(238, 231, 231);
+  }
+  /**email*/
+  input[type=email], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px 30px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: rgb(238, 231, 231);
+  }
+
+  
+  
+  div {
+    border-radius: 1px;
+    background-color: #f2f2f2;
+    padding: 30px;
+
+  }
+  /**boton verde grande*/
+  input[type=button] {
+    width: 80%;
+    background-color: #57eeab;
+    color: rgb(17, 10, 10);
+    padding: 20px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "montserrat";
+    font-weight: bolder;
+    font-size: 23px;
+    margin: 10px 30px 0;
+  }
+/**boton de chulear*/
+  input[type=checkbox]
+{width:20px;
+    height:20px;
+ 
+   }
+
+  .bottom{background-color: white;
+
+    font-family: "montserrat";
+    font-size: 15px;
+    padding-left: 30px;}
+
+
+/**pregunta**/
+p.question{
+   padding-left: 20px;
+    font-family: "montserrat";
+    font-size: 16px;
+   
+}
+span{ color: red;} /*the red color after the question*/
+
+/**footer*/
+.foot{
+    background-color: #fffd8c;
+    padding: 20px;
+    
+    width: auto;
+}
+/*the buttons for hours*/
+.hours1[type=text]{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 10px 30px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: rgb(238, 231, 231);
+    margin: center;
+  }
+
+  .city1[type=text]{
+    width: 50%;
+    padding: 10px 20px;
+    margin: 5px 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: rgb(238, 231, 231);
+    margin: center;
+  }
+
+  .rojo[type=button] {
+    width: 80%;
+    background-color: #ff8480;
+    color: rgb(248, 245, 245);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "montserrat";
+    font-weight: bolder;
+    font-size: 23px;
+    margin: 10px 30px 0;
+  }
+
+  h3{
+      font-family: "montserrat";
+      margin: 10px 30px 0;
+  }
+ .many{
+    font-family: "montserrat";
+    margin: 10px 30px 0;
+  }
+  /*iconos de red sociales*/
+
+  .icons{
+      background-color:  #fffd8c;
+    
+      align-items: center;
+  }
+  .facebook,.instagram,.twitter, .linkedin{
+      padding: 20px 25px;
+      width: auto;
+  }
+  .footerside1{
+  
+    background-color: #fffd8c;
+  }
+
+  @media screen and (min-width:520px) and (max-width:768px){
+    body{
+        margin:0;
+      }
+    .logo{
+        width:100px;
+        margin:20px 40px;
+    }
+    .title{
+      font-family: "montserrat";
+      font-weight: bolder;
+      font-size: 70px;
+      margin: 0px 20px 0px 10px;
+      color: rgb(44, 42, 42);
+      line-height: 1em;
+      letter-spacing: -1px; 
+      padding: 0px 28px 0px;
+      width: 300px;
+  
+  }
+    
+    .paragraph1{
+       font-family: "montserrat";
+       font-size: 20px;
+       margin: 0px 30px 10px 35px;
+       color: rgb(44, 42, 42);
+      width:600px;
+    
+    }
+    .scooter{
+        width: auto;
+        padding-top:-20px;
+        margin:0px 0px 0px 90px;
+      
+    }
+    /*titulo grande del cuadro*/
+    .app{
+        font-family:"montserrat";
+        font-weight: bolder;
+        font-size: 30px;
+    text-align:left;/*change the side*/
+    line-height: 0em;
+    padding: 0px 28px 0px; /*ppaddinf*/
+  }
+    /*subtitulo enter*/
+    .enter{
+        font-family:"montserrat";
+        color:rgb(49, 48, 48);
+        line-height: 0em;
+        padding: 0px 28px 0px;
+   
+    
+    }
+    /*cuadro*/
+    .container{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    width:75%;
+    box-shadow: 2px 3px grey;
+    margin:auto 0;
+    border-radius: 10px;
+     padding: 45px;
+    
+    }
+    
+    /*texto bottomo*/
+    input[type=text], select {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 10px 30px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        box-sizing: border-box;
+        background-color: rgb(238, 231, 231);
+        margin: center;
+      }
+      /*numero de telefono*/
+      input[type=number], select {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 10px 30px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        box-sizing: border-box;
+        background-color: rgb(238, 231, 231);
+      }
+      /**email*/
+      input[type=email], select {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 10px 30px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        box-sizing: border-box;
+        background-color: rgb(238, 231, 231);
+      }
+    
+      
+      
+      div {
+        border-radius: 1px;
+        background-color: #f2f2f2;
+        padding: 30px;
+    
+      }
+      /**boton verde grande*/
+      input[type=button] {
+        width: 80%;
+        background-color: #57eeab;
+        color: rgb(17, 10, 10);
+        padding: 20px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: "montserrat";
+        font-weight: bolder;
+        font-size: 23px;
+        margin: 10px 30px 0;
+      }
+    /**boton de chulear*/
+      input[type=checkbox]
+    {width:20px;
+        height:20px;
+     
+       }
+    
+      .bottom{background-color: white;
+    
+        font-family: "montserrat";
+        font-size: 15px;
+        padding-left: 30px;}
+    
+    
+    /**pregunta**/
+    p.question{
+       padding-left: 20px;
+        font-family: "montserrat";
+        font-size: 16px;
+       
+    }
+    span{ color: red;}
+    
+    /**footer*/
+      .forma2{
+  
+          overflow: hidden;
+          display: block;}
+
+    /**grid to change the postion of the items*/
+    .foot{
+        background-color: #fffd8c;
+        padding: 20px;
+        width: auto;
+    }
+    .hours1[type=text]{
+        width: 18%;
+        padding: 12px 20px;
+        margin: 0px 30px 0;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        box-sizing: border-box;
+        background-color: rgb(238, 231, 231);
+        margin: center;
+        display:auto;
+      }
+    
+      .city1[type=text]{
+        width: 30%;
+        padding: 12px 10px;
+        margin: 0px 0px;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        box-sizing: border-box;
+        background-color: rgb(238, 231, 231);
+        margin: center;
+        position:relative;
+      }
+    
+      .rojo[type=button] {
+        width: 30%;
+        background-color: #ff8480;
+        color: rgb(248, 245, 245);
+        padding: 5px 0px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: "montserrat";
+        font-weight: bolder;
+        font-size: 20px;
+        margin: 0px 20px 0;
+       position: absolute;
+      }
+    
+      h3{
+          font-family: "montserrat";
+          margin: 10px 30px 0;
+      }
+     .many{
+        font-family: "montserrat";
+        margin: 10px 30px 0;
+      }
+      /*iconos de red sociales*/
+    
+      .icons{
+          background-color:  #fffd8c;
+        margin: auto 0;
+          align-items: center;
+          padding:30px 10px 10px 200px;
+      }
+      .facebook,.instagram,.twitter, .linkedin{
+          padding: 10px;
+          margin: auto 0;
+        
+      }
+
+
+  }
+
+  @media screen and (min-width: 1281px)
+{.logo{
+    width:120px;
+    margin:0px 20px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin-top:10px;
+}
+
+  .main {
+    
+      display: grid;
+      grid-template-areas: 'left center right';
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .primero {
+    grid-area: left;
+    width:400px;
+    height: 20px;
+    padding-right: 0px;
+    padding-top: 0px;
+  
+  }
+
+  .paragraph1{
+    /*to put up to the image*/
+   position: relative;
+   z-index: 2;
+   font-size:10px ;
+ 
+ }
+.scooter-medio{
+  grid-area: center;
+  width: 450px;
+  height: 100px;
+  padding: 0px;
+  padding-top: 150px;
+  margin-top: 150px;
+position: relative;
+
+}
+
+.container{
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  width: 400px;
+  box-shadow: 2px 3px grey;
+  /*margin:auto 0;*/
+  border-radius: 10px;
+  padding:5px;
+  grid-area: center;
+  }
+  .tabla{
+    margin:20px 20px 10px 20px;
+    padding-left: 0px;
+    padding-top: 110px;
+  }
+
+/**/
+.paragraph1{
+  font-family: "montserrat";
+  font-size: 25px;
+  margin: 0px 60px 50px 10px;
+  color: rgb(44, 42, 42);
+ width:550px;
+
+}
+.foot{
+  display: grid;
+  grid-template-areas: 'left center right';
+  grid-template-columns: repeat(2, 1fr);
+}
+.footerside1{
+  grid-area: left;
+  background-color: #fffd8c;
+}
+.foot{
+  background-color: #fffd8c;
+  padding: 20px;
+  width: auto;
+}
+.hours1[type=text]{
+  width: 18%;
+  padding: 12px 20px;
+  margin: 0px 30px 0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: rgb(238, 231, 231);
+  margin: center;
+  display:auto;
+}
+
+.city1[type=text]{
+  width: 30%;
+  padding: 12px 10px;
+  margin: 0px 0px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: rgb(238, 231, 231);
+  margin: center;
+  position:relative;
+}
+
+.rojo[type=button] {
+  width: 30%;
+  background-color: #ff8480;
+  color: rgb(248, 245, 245);
+  padding: 5px 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "montserrat";
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 0px 20px 0;
+ position: absolute;
+}
+.icons{ 
+  background-color:  #fffd8c;
+margin:right;
+  align-items: center;
+  padding:10px 10px 10px 300px;
+}
+}
