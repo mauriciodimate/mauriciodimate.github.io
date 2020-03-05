@@ -1,0 +1,350 @@
+
+/*this is the stylesheet of about.html*/
+
+/*the body*/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 0%;
+    margin:0; 
+    background-color: rgb(234, 243, 237);
+}
+/*site header*/
+.site-header a {
+    float: none;
+    display: block; /*change to block the menu of the navigation*/
+    text-align: left; /*letter in the left side*/
+  }
+  
+    .header-right {
+    float: none;}
+
+     ul{ 
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(67, 87, 110);
+    overflow: hidden;}
+
+    li{
+    float: none;
+    width:100%;}
+
+
+    li a {
+    display: block;
+    color: rgb(238, 235, 215);
+    text-align: center;
+    padding:20px 16px;
+    text-decoration: none;
+    border-bottom:2px solid rgb(58, 153, 71);
+    border:1px solid;}
+
+    li a:hover{
+    background-color:  #db810a;
+    color: rgb(63, 30, 210);}
+/*how i put the logo*/
+.logo{
+   display: block;
+   margin: 0 auto;
+   margin-top: 2px;
+width: 400px;
+
+}
+  /*this is for divide the images*/
+.columna{
+display: inline-block;
+grid-template-columns:auto auto;
+grid-template-rows:auto auto auto;
+grid-column-gap:1%;
+grid-row-gap:1%;
+justify-items: center;
+justify-items: end;
+}
+
+.img{
+   width:300px;
+   justify-content: center;
+}
+/*this is the navegation bar the on the bottom*/
+.navbar{
+    list-style: none;
+    width: 100%;
+    background-color: #ecd60e;
+    color: white;
+    text-align: center;
+}
+
+/*this is the top buttom*/
+.topbutton{
+    position: relative;
+}
+/*the table*/
+table {
+    width:100%;
+    margin: 0 auto;
+    padding-top: 10px;
+ align-content: center;
+  }
+
+  td, th {
+    border: 1px solid #0e0606;}
+thead {
+    display: none;
+}
+
+.topbutton{
+  position: relative;
+}
+/*table of contact*/
+form{font-size:1rem;
+    margin:1rem;
+     border: 1px mediumaquamarine;
+     box-shadow:0px 1px 0px 5px #f1faa3 ;
+    padding:20px;
+    background-color: #846dbb;
+    width:85%;
+    
+  
+  }
+  input[type="text"],label {
+    color:rgb(250, 250, 246);
+    padding:5px;
+    width:80%;
+    }
+
+  fieldset{
+    border-color:rgba(252, 237, 237, 0.992);}
+
+  textarea{
+    width:80%;
+    height:100px;
+    padding:1px;}
+
+
+  .maps iframe{
+    padding-top: 10px;
+    margin: 0 auto;
+    width:80%;
+    display: block;
+  }
+
+  .topbutton{
+    position: relative;
+}
+.icons{
+  background-color:  #423b69;
+  align-items: center;
+}
+.facebook,.instagram,.twitter, .youtube{
+  padding: 20px 25px;
+  width: auto;
+}
+/*tablet*/
+
+@media screen and (min-width:650px) and (max-width:868px){
+  .site-header{
+    width:100%;
+    height:100%;
+    display: inline-block;
+    background-color:rgb(249, 252, 208);
+ color: rgb(59, 12, 12);
+ padding: 2rem 0;}
+ ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color:#940606;
+  overflow: hidden;
+ 
+}
+  form{font-size:1rem;
+   
+    border: dodgerblue 3px;
+   background-color: #ee9f0c;
+   width:80%;
+   padding: 5px;
+     padding-top: 60px;
+     margin: 0 auto;
+     display: block;
+   }
+
+   .icons{
+    background-color:  #771616;
+    align-items: center;
+  }
+
+  }
+
+@media screen and (min-width:868px){
+    .site-header{
+        width:100%;
+        height:100%;
+        display: block;
+        background-color:rgb(249, 252, 208);
+     color: white;
+     padding: 2rem 0;}
+    /*barra de navegacion horizontal*/
+     ul{
+         list-style-type: none;
+         margin: 0px;
+         padding: 0px;
+         background-color:#ee700a;
+         overflow: hidden;
+        
+     }
+     li{
+         float: left;
+         width: 33.3%; /*to be the proportional the trhee menu*/
+       
+     }
+     li a {
+         display: block;
+         color: rgb(238, 238, 247);
+         text-align: center;
+         padding:16px 16px;
+         text-decoration: none;
+         border-right:1px solid rgb(39, 22, 26);
+     }
+     
+    li a:hover{
+        background-color: rgb(226, 174, 30);
+    color: rgb(72, 40, 146);}
+    .logo{
+        display: block;
+        margin: 0 auto;
+        margin-top: 2px;
+    width: 400px;
+   }
+       
+       
+    .img{
+        width:250px;
+    }
+    .columna{
+        display: grid;
+        grid-template-columns:auto auto auto;
+        grid-template-rows:auto auto auto;
+        grid-column-gap:1%;
+        grid-row-gap:1%;
+        justify-items: center;
+        justify-items: end;
+        
+        }
+.navbar li a{
+    color: rgb(250, 249, 246);
+    text-align: center;
+    border:1px solid rgb(248, 224, 207);
+    
+}
+
+
+table {
+    width:70%;
+   padding-bottom: 30px;
+
+  }
+
+  td, th {
+    border: 1px solid #0e0606;}
+thead {
+    display: none;
+}
+
+.topbutton{
+  position: relative;
+}
+.icons{
+  background-color:  #db810a;
+  align-items: center;
+}
+.facebook, .instagram, .twitter, .youtube{
+  animation-name:rotate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+/*@keyframes deinfes an animation*/
+@keyframes rotate{
+  50%{
+     transform: rotate(360deg);
+ }
+ /*change the border radius*/
+ 25%, 75%{
+     border-radius: 50%;
+ }
+}
+
+form{font-size:1rem;
+   
+     border: 1px rgb(218, 99, 20);
+     box-shadow:0px 1px 0px 5px #f3a171 ;
+    background-color: #f7805c;
+    width:85%;
+    padding: 45px;
+      padding-top: 10px;
+      margin: 0 auto;
+      
+      display: block;
+      animation:ex 5s infinite;
+    }
+    
+    @keyframes ex {
+      0% {
+        background-color: #001F3F;
+      }
+      100% {
+        background-color: #FF4136;
+      }
+    }
+
+  input[type="text"],label {
+    color:rgb(250, 250, 246);
+    padding:5px;
+    width:90%;
+    }
+
+  fieldset{
+    border-color:rgba(252, 237, 237, 0.992);}
+
+  textarea{
+    width:80%;
+    height:100px;
+    padding:1px;}
+
+
+  .maps iframe{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width:70%;
+    display: block;
+  }
+
+ .copyright  {
+    
+    text-align: center;
+    color:black;
+    animation:pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #001F3F;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  }
+ 
+ figcaption { text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  }
+
+}

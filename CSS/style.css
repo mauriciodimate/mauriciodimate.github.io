@@ -1,0 +1,175 @@
+/*this is the stylesheet of index.html*/
+/*hacer dos animaciones y el back up*/
+/*the body*/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 0%;
+    margin:0; 
+    background-color: rgb(255, 255, 255);
+}
+/*site header*/
+.site-header a {
+    float: none;
+    display: block; /*change to block the menu of the navigation*/
+    text-align: left; /*letter in the left side*/
+  }
+  
+    .header-right {
+    float: none;}
+
+     ul{ 
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(67, 87, 110);
+    overflow: hidden;}
+
+    li{
+    float: none;
+    width:100%;}
+
+
+    li a {
+    display: block;
+    color: rgb(238, 235, 215);
+    text-align: center;
+    padding:20px 16px;
+    text-decoration: none;
+    border-bottom:2px solid rgb(58, 153, 71);
+    border:1px solid;}
+
+    /*the hover*/
+    li a:hover{
+    background-color: rgb(226, 174, 30);
+    color: rgb(63, 30, 210);}
+/*how i put the logo*/
+.logo{
+   display: block;
+   margin: 0 auto;
+   margin-top: 2px;
+width: 400px}
+  /*this is for divide the images*/
+.columna{
+display: inline-block;
+grid-template-columns:auto auto;
+grid-template-rows:auto auto auto;
+grid-column-gap:1%;
+grid-row-gap:1%;
+justify-items: center;
+justify-items: end;
+}
+
+.img{
+   width:300px;
+   justify-content: center;
+}
+/*this is the navegation bar the on the bottom*/
+.navbar{
+    list-style: none;
+    width: 100%;
+    background-color:#ee700a;
+    color: white;
+    text-align: center;
+}
+
+/*this is the top buttom*/
+.topbutton{
+    position: relative;
+}
+/*how to put the icons*/
+.icons{
+    background-color:  #423b69;
+    align-items: center;
+   
+  }
+/*social media icons*/
+  .facebook,.instagram,.twitter, .youtube{
+    padding: 20px 25px;
+    width: auto;
+  }
+
+@media screen and (min-width:768px){
+    .site-header{
+        width:100%;
+        height:100%;
+        display: block;
+        background-color:rgb(249, 252, 208);
+     color: white;
+     padding: 2rem 0;}
+    /*barra de navegacion horizontal*/
+     ul{
+         list-style-type: none;
+         margin: 0px;
+         padding: 0px;
+         background-color: #db810a;
+         overflow: hidden;
+        
+     }
+     li{
+         float: left;
+         width: 33.3%; /*to be the proportional the trhee menu*/
+       
+     }
+     li a {
+         display: block;
+         color: rgb(238, 238, 247);
+         text-align: center;
+         padding:16px 16px;
+         text-decoration: none;
+         border-right:1px solid rgb(39, 22, 26);
+     }
+     
+    li a:hover{
+       background-color: rgb(226, 174, 30);
+    color: rgb(72, 40, 146);}
+    .logo{
+        display: block;
+        margin: 0 auto;
+        margin-top: 2px;
+    width: 400px}
+       
+       
+    .img{
+        width:250px;
+    }
+    /*distribute the images*/
+    .columna{
+        display: grid;
+        grid-template-columns:auto auto auto;
+        grid-template-rows:auto auto auto;
+        grid-column-gap:1%;
+        grid-row-gap:1%;
+        justify-items: center;
+        justify-items: end;
+        }
+.navbar li a{
+    color: rgb(250, 249, 246);
+    text-align: center;
+    border:1px solid rgb(248, 224, 207);
+}
+ .copyright  {
+    background-color: rgb(193, 193, 209); 
+    text-align: center;
+    color:black;
+ }
+ /*the name of the figures*/
+ figcaption {
+   
+    text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  }
+  /*change the color of the icons*/
+  .icons{
+    background-color:  #db810a;
+    align-items: center;
+  }
+
+}

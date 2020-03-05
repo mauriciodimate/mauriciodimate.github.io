@@ -1,22 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> <!--this is the home page of the web site-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="CSS/style.css" rel="stylesheet"> <!--linked with style css-->
+    <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
 </head>
+<!-- stars the body-->
 <body>
-    <p> Full name: 
-        Edgar Mauricio Dimate Zapata
-        MTM6201 - W2020 Section number-03
- 
-  user name: https://github.com/mauriciodimate
-  sleep
-    </p>
+    <!--header-->
+    <header class="site-header">
+            <div class="banner">
+            
+            <img src="logo/logo.png" class="logo" alt="logo"> <!--logo-->
+            <div class="nav">
 
-<footer>
-    MADFDFGG
-</footer>
+        <nav role="navigation"> <!--this is the navigation-->
+            <ul>
+                <li><a href=index.html> Home </a>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+                <li><a href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+         </nav>
+
+
+        </div> <!--this close the navigation class-->
+        </div> <!--this close the navigation banner-->
+    </header>
+<!--end of the header-->
+<!--imagenes en bloque-->
+
+<div class="mas"> <!--starts all the content of the images-->
+        <div class="columna">
+            <figure>
+            <a href="imgs/shoes.jpg">  </a>   
+            <img src="imgs/shoes.jpg" alt="m1" class="img"> 
+                
+             <figcaption>Seasson</figcaption>
+        <!--tags for the images and products-->
+            </figure>
+      
+            <figure> 
+            <a href="imgs/shoes2.jpg"> </a>
+            <picture>
+            <source media="(min-width:960px )"  srcset="imgs/shoes3.jpg"> <!--size of the image-->
+            <img src="imgs/shoes2.jpg" alt="m2" class="img">
+            </picture>
+
+            <figcaption>Nike shoes</figcaption>  
+            </figure> 
+
+        
+             <figure>
+             <a href="imgs/shoes4.jpg.jpg"> </a>
+             <picture>
+             <source media="(min-width:960px )"  srcset="imgs/shoes5.jpg">
+             <img src="imgs/shoes4.jpg" alt="m3" class="img">
+             </picture>
+
+             <figcaption>Results</figcaption>  
+             </figure>
+
+
+             <figure>
+             <a href="imgs/shoes6.jpg"> </a>
+             <picture>
+            <source media="(min-width:960px )" srcset="imgs/shoes7.jpg">
+            <img src="imgs/shoes6.jpg" alt="m4" class="img">
+            </picture>
+
+            <figcaption>New collections</figcaption>  
+            </figure>
+        
+        
+            <figure>
+            <a href="imgs/shoes8.jpg.jpg"> </a>
+             <picture>
+            <source media="(min-width:960px )" srcset="imgs/shoes9.jpg">
+            <img src="imgs/shoes8.jpg" alt="m5" class="img">
+            </picture>
+                            
+            <figcaption>Special collections</figcaption>             
+            </figure>
+                        
+            <figure>
+            <a href="imgs/shoes10.jpg"> </a>
+            <picture>
+             <img src="imgs/shoes10.jpg" alt="m6" class="img">
+            </picture>
+                                    
+            <figcaption>Our branding</figcaption>  
+            </figure>
+    
+        
+        
+        </div>
+           
+    </div>
+
+        <!--closing container grid layout-->
+    <footer> <!--the footer-->
+                    <div class="navbar">
+             
+                  
+                     <a class="topbutton" href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
+                       </div>
+
+                       <div class="icons">
+                        <img src="icons/facebook.svg" class="facebook" alt="face">
+                        <img src="icons/instagram.svg" class="instagram" alt="insta">
+                        <img src="icons/twitter.svg" class="twitter" alt="twitter">
+                        <img src="icons/youtube.svg" class="youtube" alt="link">
+                        
+                        </div>
+                <div class="copyright">     Copyright&copy; Mauricio Dimate</div>          
+             
+                
+      </footer>
+
+
 </body>
+
+
 </html>
