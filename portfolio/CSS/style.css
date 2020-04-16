@@ -1,0 +1,423 @@
+/*this is the style sheet css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} /*all the web page*/
+html{
+    scroll-behavior: smooth;
+}
+.container{
+   padding: 0 100px 0 100px;
+} 
+.header 
+{height: 100px;
+
+}
+.navbar-style{
+  box-shadow: 0 1px 1px;
+}
+
+.logo{
+  height: 48px;
+  padding: 2px 16px;
+}
+.icon-bar{
+background:darkblue ;  
+}
+/*to the navigation*/
+.work-category{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+
+}
+/*this is the body*/
+body{ background-color:rgba(73, 31, 31, 0.2);
+   
+}
+
+   
+ /*header background*/
+
+ .header h1, header a,
+  .skills h1, .work h1, .contact h1 {
+     color: rgb(31, 25, 25);
+     font-size: 1.5em;
+     padding-top: 5px;
+   text-decoration:none;
+     font-family:sans-serif
+ }
+
+
+.about{
+    height: 100%;
+    margin-top: 20px;
+}
+.about h1,.work h1{
+font-size:9rem;
+z-index: 0;
+opacity: .1;
+}
+/*style of the box of my table of the info about me*/
+.aboutme-info{
+max-width: 900px;
+background-color:#464879 ;
+box-shadow: 0 0 1.2rem rgba(0,0, 0,25);
+padding: 50px;
+position: relative;
+top: 10px;
+left: 50%;
+right:50%;
+transform: translateX(-50%);
+z-index: 1;
+padding-top: 60px ;
+}
+/*style of the atributes of paragraph the info about me*/
+.aboutme-info p{
+font-size: 1.3rem;
+color: #a1a1a1;
+}
+
+.aboutme h1,.slider h1 {
+    font-size:9rem;
+    z-index: 0;
+    padding-top: 0px;
+}
+.container-aboutme h1{
+    padding-top: 60px;
+    text-align:left;
+    font-size: 8rem;
+    opacity: .1; 
+}
+/*skills*/
+.skills{
+height: 100%;
+}
+
+.skills h1, .contact h1{
+text-align:left;
+font-size: 10rem;
+opacity: .1;
+}
+.skills-info{
+    font:1.4rem;
+    color:rgba(25, 36, 25, 0.933);
+    max-width: 800PX;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-bottom:50px;
+}
+.html{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+/*style the buttoms of the tag*/
+div[class^='tag-']{
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 50%,0% 0%);
+    width: 120px;
+    height: 30px;
+    background-color: royalblue;
+    margin-right: 30px;
+}
+
+div[class^='tag-'] p{
+    color: #fff;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    padding-top: 3px;
+
+}
+
+.progressbar{
+    position: relative;
+    width: 600px;
+    height: 100px;
+    border: 2px solid #101011;
+    border-radius: 20px;
+    margin-top: 7px;
+}
+/*div[class^='bar-']{
+
+position: absolute;
+background-color: aquamarine;
+border-radius: 20px;
+margin: 2,7px;
+}
+*/
+.bar-css, .bar-html{
+
+max-width: 500px;
+padding: 10px;
+position: relative;
+top: 10px;
+left: 50%;
+right:50%;
+transform: translateX(-50%);
+z-index: 1;
+}
+
+.bar-css a, .bar-html a{
+   color: rgb(68, 75, 75);
+   font-style: normal;
+   font-size: 1em;
+}
+/*this is the work category THE BUTTONS */
+.work-category button{
+    text-transform: capitalize;
+    border: 3px solid royalblue;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #464879;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    background-color: rgb(71, 66, 66);
+    outline: none;
+}
+/*the contact table*/
+.contact{
+    margin-top: 50px;
+}
+form input,form textarea{
+    display: block;
+    width: 500px;
+    padding:20px ;
+    background-color: #a1a1a1;
+    border: 3px solid #464879;
+    margin: 20px 0;
+    outline: none;
+    font-size: 1.2rem;
+    position:relative ;
+    left: 50%;
+    right:50%;
+    transform: translateX(-50%);
+}
+/*the last button of the table---*/
+form input:last-child{
+    width: 100px;
+    background-color: rgb(63, 87, 79);
+    border:none ;
+    cursor: pointer;
+}
+/*the footer*/
+footer hr{
+    border: 2px solid;
+    margin-top:80px ;
+}
+footer p{
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 30px 0;
+
+}
+
+/*this for tablet********************+++++
+
+
+*************+**++*/
+@media screen and (max-width:750px){
+
+
+    html{
+        scroll-behavior: smooth;
+    }
+  /*  .container{
+       padding: 0 100px 0 100px;
+    } 
+    /*to the navigation*/
+ .work-category{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
+    
+    }
+    /*this is the body*/
+    body{ background-color:rgba(73, 31, 31, 0.2);
+       
+    }
+      /*the header*/
+.header 
+{height: 100px;
+
+}
+
+
+.logo{
+  height: 48px;
+  padding: 2px 16px;
+}
+.icon-bar{
+background:darkblue ;  
+}
+       
+     /*header background*/
+ .about h1, .skills h1, .work h1, .contact h1 {
+        color: rgb(19, 3, 3);
+        font-size: 30px;
+        padding-top: 20px;
+      text-decoration:none;
+        font-family:sans-serif;
+    }
+    /*style of the navigation list changed*/
+
+    .about{
+        height: 100%;
+        margin-top: 1px;
+    }
+    .about h1,.work h1{
+    font-size:15px;
+    z-index: 0;
+    opacity: 0;
+    }
+    /*style of the box of my table of the info about me*/
+    .aboutme-info{
+    max-width: 900px;
+    background-color:#464879 ;
+    box-shadow: 0 0 1.2rem rgba(0,0, 0,25);
+    padding: 50px;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    right:50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    }
+    /*style of the atributes of paragraph the info about me*/
+    .aboutme-info p{
+    font-size: 1.3rem;
+    color: #a1a1a1;
+    }
+    
+    /*skills*/
+    .skills{
+    height: 100%;
+    }
+    .skills h1, .contact h1,.work h1{ /*change the titles smaller*/
+    text-align:left;
+    font-size: 4rem;
+    opacity: .1;
+    }
+    .skills-info{
+        font:1.4rem;
+        color:rgba(25, 36, 25, 0.933);
+        max-width: 800PX;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        margin-bottom:50px;
+    }
+    .html{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    /*style the buttoms of the tag*/
+    div[class^='tag-']{
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 50%,0% 0%);
+        width: 120px;
+        height: 30px;
+        background-color: royalblue;
+        margin-right: 30px;
+    }
+    
+    div[class^='tag-'] p{
+        color: #fff;
+        text-align: left;
+        padding-left: 10px;
+        font-size: 1.1rem;
+        padding-top: 3px;
+    
+    }
+    
+    .progressbar{
+        position: relative;
+        width: 600px;
+        height: 100px;
+        border: 2px solid #101011;
+        border-radius: 20px;
+        margin-top: 7px;
+    }
+    /*div[class^='bar-']{
+    
+    position: absolute;
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin: 2,7px;
+    }
+    */
+    .bar-css, .bar-html{
+    
+    max-width: 500px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    right:50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    }
+    
+    .bar-css a, .bar-html a{
+       color: rgb(68, 75, 75);
+       font-style: normal;
+       font-size: 1em;
+    }
+    /*this is the work category THE BUTTONS */
+    .work-category button{
+        text-transform: capitalize;
+        border: 3px solid royalblue;
+        padding: 15px 30px;
+        border-radius: 50px;
+        color: #dfe0f0;
+        font-size: 1.1em;
+        letter-spacing: 1px;
+        background-color: rgb(71, 66, 66);
+        outline: none;
+    }
+    /*the contact table*/
+    .contact{
+        margin-top: 50px;
+    }
+    form input,form textarea{
+        display: block;
+        width: 500px;
+        padding:20px ;
+        background-color: #a1a1a1;
+        border: 3px solid #464879;
+        margin: 20px 0;
+        outline: none;
+        font-size: 1.2rem;
+        position:relative ;
+        left: 50%;
+        right:50%;
+        transform: translateX(-50%);
+    }
+    /*the last button of the table---*/
+    form input:last-child{
+        width: 100px;
+        background-color: rgb(63, 87, 79);
+        border:none ;
+        cursor: pointer;
+    }
+    /*the footer*/
+    footer hr{
+        border: 2px solid;
+        margin-top:80px ;
+    }
+    footer p{
+        text-align: center;
+        font-size: 1.7rem;
+        padding: 30px 0;
+    }
+    
+}
